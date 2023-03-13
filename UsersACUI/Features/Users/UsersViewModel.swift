@@ -18,7 +18,7 @@ public final class UsersViewModel {
     // MARK: - PRIVATE PROPERTIES
     
     private let useCase: UsersUseCase
-    public var users = [User]()
+    private var users = [User]()
     
     weak var delegate: UsersViewModelDelegate?
     

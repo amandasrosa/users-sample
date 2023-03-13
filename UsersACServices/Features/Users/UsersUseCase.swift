@@ -21,7 +21,7 @@ public class UsersUseCase {
             switch result {
             case .success(let users):
                 completion(users)
-            case .failure(let error):
+            case .failure(_):
                 completion([])
             }
         }
